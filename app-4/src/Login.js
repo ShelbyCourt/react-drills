@@ -8,6 +8,7 @@ class Login extends Component {
             username: "",
             password: ""
         };
+        this.handleLogin.bind(this);
     }
     
 updateUsername(name) {
